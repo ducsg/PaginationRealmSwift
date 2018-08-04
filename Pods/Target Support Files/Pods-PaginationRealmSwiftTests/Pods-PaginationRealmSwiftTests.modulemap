@@ -1,0 +1,6 @@
+framework module Pods_PaginationRealmSwiftTests {
+  umbrella header "Pods-PaginationRealmSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

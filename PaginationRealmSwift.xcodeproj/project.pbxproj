@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A915711FCC57A46703A3755 /* Pods_PaginationRealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFD9EB4FC5AD1AE1241A8C6 /* Pods_PaginationRealmSwift.framework */; };
+		5951D01E211569AF00C2917E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D01D211569AF00C2917E /* AppDelegate.swift */; };
+		5951D023211569AF00C2917E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5951D021211569AF00C2917E /* Main.storyboard */; };
+		5951D025211569B100C2917E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5951D024211569B100C2917E /* Assets.xcassets */; };
+		5951D028211569B100C2917E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5951D026211569B100C2917E /* LaunchScreen.storyboard */; };
+		5951D033211569B100C2917E /* PaginationRealmSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D032211569B100C2917E /* PaginationRealmSwiftTests.swift */; };
+		5951D03E211569B100C2917E /* PaginationRealmSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D03D211569B100C2917E /* PaginationRealmSwiftUITests.swift */; };
+		5951D04C21156B1700C2917E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D04B21156B1700C2917E /* TableViewController.swift */; };
+		5951D04E21156C2500C2917E /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D04D21156C2500C2917E /* Results.swift */; };
+		5951D05021156C3300C2917E /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951D04F21156C3300C2917E /* Dog.swift */; };
+		AC4DC32E4A36F670DE402F96 /* Pods_PaginationRealmSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E9DBA15631B56E1589D1EA /* Pods_PaginationRealmSwiftTests.framework */; };
+		F2E539D356E4D2DA67E29C96 /* Pods_PaginationRealmSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F9476CFC3E7643780C6D8E /* Pods_PaginationRealmSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5951D02F211569B100C2917E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5951D012211569AF00C2917E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5951D019211569AF00C2917E;
+			remoteInfo = PaginationRealmSwift;
+		};
+		5951D03A211569B100C2917E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5951D012211569AF00C2917E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5951D019211569AF00C2917E;
+			remoteInfo = PaginationRealmSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E9DBA15631B56E1589D1EA /* Pods_PaginationRealmSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationRealmSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E66E0B12C13A4E0AB82FDBE /* Pods-PaginationRealmSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwiftTests/Pods-PaginationRealmSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		55D1CB66C6D2A915DB41E809 /* Pods-PaginationRealmSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwiftUITests/Pods-PaginationRealmSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56E33D2BAA1F2293E49AC64C /* Pods-PaginationRealmSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwiftTests/Pods-PaginationRealmSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5951D01A211569AF00C2917E /* PaginationRealmSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationRealmSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5951D01D211569AF00C2917E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5951D022211569AF00C2917E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5951D024211569B100C2917E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5951D027211569B100C2917E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5951D029211569B100C2917E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5951D02E211569B100C2917E /* PaginationRealmSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationRealmSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5951D032211569B100C2917E /* PaginationRealmSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationRealmSwiftTests.swift; sourceTree = "<group>"; };
+		5951D034211569B100C2917E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5951D039211569B100C2917E /* PaginationRealmSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationRealmSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5951D03D211569B100C2917E /* PaginationRealmSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationRealmSwiftUITests.swift; sourceTree = "<group>"; };
+		5951D03F211569B100C2917E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5951D04B21156B1700C2917E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5951D04D21156C2500C2917E /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		5951D04F21156C3300C2917E /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		61CC7D5F44C818D87D4DBE80 /* Pods-PaginationRealmSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwift/Pods-PaginationRealmSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		97F9476CFC3E7643780C6D8E /* Pods_PaginationRealmSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationRealmSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96ED171D58F2A1B6EB3F687 /* Pods-PaginationRealmSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwiftUITests/Pods-PaginationRealmSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D645DAAE39FA52E3B15CC283 /* Pods-PaginationRealmSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationRealmSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaginationRealmSwift/Pods-PaginationRealmSwift.release.xcconfig"; sourceTree = "<group>"; };
+		FDFD9EB4FC5AD1AE1241A8C6 /* Pods_PaginationRealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationRealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5951D017211569AF00C2917E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A915711FCC57A46703A3755 /* Pods_PaginationRealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D02B211569B100C2917E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4DC32E4A36F670DE402F96 /* Pods_PaginationRealmSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D036211569B100C2917E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E539D356E4D2DA67E29C96 /* Pods_PaginationRealmSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CEA749BD6BA673FDC06859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDFD9EB4FC5AD1AE1241A8C6 /* Pods_PaginationRealmSwift.framework */,
+				04E9DBA15631B56E1589D1EA /* Pods_PaginationRealmSwiftTests.framework */,
+				97F9476CFC3E7643780C6D8E /* Pods_PaginationRealmSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5951D011211569AF00C2917E = {
+			isa = PBXGroup;
+			children = (
+				5951D01C211569AF00C2917E /* PaginationRealmSwift */,
+				5951D031211569B100C2917E /* PaginationRealmSwiftTests */,
+				5951D03C211569B100C2917E /* PaginationRealmSwiftUITests */,
+				5951D01B211569AF00C2917E /* Products */,
+				70AEF769C87835AB78D41071 /* Pods */,
+				06CEA749BD6BA673FDC06859 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5951D01B211569AF00C2917E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5951D01A211569AF00C2917E /* PaginationRealmSwift.app */,
+				5951D02E211569B100C2917E /* PaginationRealmSwiftTests.xctest */,
+				5951D039211569B100C2917E /* PaginationRealmSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5951D01C211569AF00C2917E /* PaginationRealmSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5951D01D211569AF00C2917E /* AppDelegate.swift */,
+				5951D021211569AF00C2917E /* Main.storyboard */,
+				5951D024211569B100C2917E /* Assets.xcassets */,
+				5951D026211569B100C2917E /* LaunchScreen.storyboard */,
+				5951D029211569B100C2917E /* Info.plist */,
+				5951D04B21156B1700C2917E /* TableViewController.swift */,
+				5951D04D21156C2500C2917E /* Results.swift */,
+				5951D04F21156C3300C2917E /* Dog.swift */,
+			);
+			path = PaginationRealmSwift;
+			sourceTree = "<group>";
+		};
+		5951D031211569B100C2917E /* PaginationRealmSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5951D032211569B100C2917E /* PaginationRealmSwiftTests.swift */,
+				5951D034211569B100C2917E /* Info.plist */,
+			);
+			path = PaginationRealmSwiftTests;
+			sourceTree = "<group>";
+		};
+		5951D03C211569B100C2917E /* PaginationRealmSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5951D03D211569B100C2917E /* PaginationRealmSwiftUITests.swift */,
+				5951D03F211569B100C2917E /* Info.plist */,
+			);
+			path = PaginationRealmSwiftUITests;
+			sourceTree = "<group>";
+		};
+		70AEF769C87835AB78D41071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61CC7D5F44C818D87D4DBE80 /* Pods-PaginationRealmSwift.debug.xcconfig */,
+				D645DAAE39FA52E3B15CC283 /* Pods-PaginationRealmSwift.release.xcconfig */,
+				56E33D2BAA1F2293E49AC64C /* Pods-PaginationRealmSwiftTests.debug.xcconfig */,
+				4E66E0B12C13A4E0AB82FDBE /* Pods-PaginationRealmSwiftTests.release.xcconfig */,
+				C96ED171D58F2A1B6EB3F687 /* Pods-PaginationRealmSwiftUITests.debug.xcconfig */,
+				55D1CB66C6D2A915DB41E809 /* Pods-PaginationRealmSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5951D019211569AF00C2917E /* PaginationRealmSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5951D042211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwift" */;
+			buildPhases = (
+				1764535F48193738DECBB7A6 /* [CP] Check Pods Manifest.lock */,
+				5951D016211569AF00C2917E /* Sources */,
+				5951D017211569AF00C2917E /* Frameworks */,
+				5951D018211569AF00C2917E /* Resources */,
+				3407CC5D7A77854136C439EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaginationRealmSwift;
+			productName = PaginationRealmSwift;
+			productReference = 5951D01A211569AF00C2917E /* PaginationRealmSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5951D02D211569B100C2917E /* PaginationRealmSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5951D045211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwiftTests" */;
+			buildPhases = (
+				73C73F491C646396267F2D2C /* [CP] Check Pods Manifest.lock */,
+				5951D02A211569B100C2917E /* Sources */,
+				5951D02B211569B100C2917E /* Frameworks */,
+				5951D02C211569B100C2917E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5951D030211569B100C2917E /* PBXTargetDependency */,
+			);
+			name = PaginationRealmSwiftTests;
+			productName = PaginationRealmSwiftTests;
+			productReference = 5951D02E211569B100C2917E /* PaginationRealmSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5951D038211569B100C2917E /* PaginationRealmSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5951D048211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwiftUITests" */;
+			buildPhases = (
+				C9D6F67921901A386D8C4581 /* [CP] Check Pods Manifest.lock */,
+				5951D035211569B100C2917E /* Sources */,
+				5951D036211569B100C2917E /* Frameworks */,
+				5951D037211569B100C2917E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5951D03B211569B100C2917E /* PBXTargetDependency */,
+			);
+			name = PaginationRealmSwiftUITests;
+			productName = PaginationRealmSwiftUITests;
+			productReference = 5951D039211569B100C2917E /* PaginationRealmSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5951D012211569AF00C2917E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Duc Ngo";
+				TargetAttributes = {
+					5951D019211569AF00C2917E = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					5951D02D211569B100C2917E = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5951D019211569AF00C2917E;
+					};
+					5951D038211569B100C2917E = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5951D019211569AF00C2917E;
+					};
+				};
+			};
+			buildConfigurationList = 5951D015211569AF00C2917E /* Build configuration list for PBXProject "PaginationRealmSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5951D011211569AF00C2917E;
+			productRefGroup = 5951D01B211569AF00C2917E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5951D019211569AF00C2917E /* PaginationRealmSwift */,
+				5951D02D211569B100C2917E /* PaginationRealmSwiftTests */,
+				5951D038211569B100C2917E /* PaginationRealmSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5951D018211569AF00C2917E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5951D028211569B100C2917E /* LaunchScreen.storyboard in Resources */,
+				5951D025211569B100C2917E /* Assets.xcassets in Resources */,
+				5951D023211569AF00C2917E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D02C211569B100C2917E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D037211569B100C2917E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1764535F48193738DECBB7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationRealmSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3407CC5D7A77854136C439EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaginationRealmSwift/Pods-PaginationRealmSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaginationRealmSwift/Pods-PaginationRealmSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C73F491C646396267F2D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationRealmSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D6F67921901A386D8C4581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationRealmSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5951D016211569AF00C2917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5951D04C21156B1700C2917E /* TableViewController.swift in Sources */,
+				5951D04E21156C2500C2917E /* Results.swift in Sources */,
+				5951D05021156C3300C2917E /* Dog.swift in Sources */,
+				5951D01E211569AF00C2917E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D02A211569B100C2917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5951D033211569B100C2917E /* PaginationRealmSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5951D035211569B100C2917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5951D03E211569B100C2917E /* PaginationRealmSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5951D030211569B100C2917E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5951D019211569AF00C2917E /* PaginationRealmSwift */;
+			targetProxy = 5951D02F211569B100C2917E /* PBXContainerItemProxy */;
+		};
+		5951D03B211569B100C2917E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5951D019211569AF00C2917E /* PaginationRealmSwift */;
+			targetProxy = 5951D03A211569B100C2917E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5951D021211569AF00C2917E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5951D022211569AF00C2917E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5951D026211569B100C2917E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5951D027211569B100C2917E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5951D040211569B100C2917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5951D041211569B100C2917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5951D043211569B100C2917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61CC7D5F44C818D87D4DBE80 /* Pods-PaginationRealmSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5951D044211569B100C2917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D645DAAE39FA52E3B15CC283 /* Pods-PaginationRealmSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5951D046211569B100C2917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E33D2BAA1F2293E49AC64C /* Pods-PaginationRealmSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginationRealmSwift.app/PaginationRealmSwift";
+			};
+			name = Debug;
+		};
+		5951D047211569B100C2917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E66E0B12C13A4E0AB82FDBE /* Pods-PaginationRealmSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginationRealmSwift.app/PaginationRealmSwift";
+			};
+			name = Release;
+		};
+		5951D049211569B100C2917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96ED171D58F2A1B6EB3F687 /* Pods-PaginationRealmSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaginationRealmSwift;
+			};
+			name = Debug;
+		};
+		5951D04A211569B100C2917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D1CB66C6D2A915DB41E809 /* Pods-PaginationRealmSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationRealmSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hd.PaginationRealmSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaginationRealmSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5951D015211569AF00C2917E /* Build configuration list for PBXProject "PaginationRealmSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951D040211569B100C2917E /* Debug */,
+				5951D041211569B100C2917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5951D042211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951D043211569B100C2917E /* Debug */,
+				5951D044211569B100C2917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5951D045211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951D046211569B100C2917E /* Debug */,
+				5951D047211569B100C2917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5951D048211569B100C2917E /* Build configuration list for PBXNativeTarget "PaginationRealmSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951D049211569B100C2917E /* Debug */,
+				5951D04A211569B100C2917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5951D012211569AF00C2917E /* Project object */;
+}
